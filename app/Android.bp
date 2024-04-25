@@ -7,6 +7,8 @@
 android_app {
     name: "Updater",
 
+    init_rc: ["init/init.lineage-updater.rc"],
+
     // Include SettingsLib and its dependencies
     defaults: ["SettingsLibDefaults"],
 
