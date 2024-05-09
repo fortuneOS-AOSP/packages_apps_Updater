@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2023 The LineageOS Project
+     Copyright (C) 2017-2024 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -49,6 +49,12 @@
     <string name="dialog_prepare_zip_message">Wstępne przygotowywanie aktualizacji</string>
     <string name="dialog_battery_low_title">Niski poziom naładowania</string>
     <string name="dialog_battery_low_message_pct">Poziom naładowania baterii jest zbyt niski, potrzebujesz co najmniej <xliff:g id="percent_discharging">%1$d</xliff:g>%% baterii, aby kontynuować, lub <xliff:g id="percent_charging">%2$d</xliff:g>%% w przypadku ładowania.</string>
+    <string name="dialog_scratch_mounted_message"><![CDATA[        Please run the following commands and retry the update:\n
+        • adb root\n
+        • adb enable-verity\n
+        • adb reboot
+        ]]></string>
+    <string name="dialog_scratch_mounted_title">Cannot install update with OverlayFS mounted</string>
     <string name="reboot">Zresetuj</string>
     <string name="menu_refresh">Odśwież</string>
     <string name="menu_preferences">Preferencje</string>
@@ -56,7 +62,7 @@
     <string name="menu_auto_updates_check_interval_daily">Raz dziennie</string>
     <string name="menu_auto_updates_check_interval_weekly">Raz w tygodniu</string>
     <string name="menu_auto_updates_check_interval_monthly">Raz w miesiącu</string>
-    <string name="menu_auto_updates_check_interval_never">Never</string>
+    <string name="menu_auto_updates_check_interval_never">Nigdy</string>
     <string name="menu_auto_delete_updates">Usuń pliki aktualizacji po zainstalowaniu</string>
     <string name="menu_delete_update">Usuń</string>
     <string name="menu_copy_url">Kopiuj adres URL</string>
