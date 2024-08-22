@@ -1,7 +1,7 @@
 import java.util.Properties
-import com.awaken.generatebp.GenerateBpPlugin
-import com.awaken.generatebp.GenerateBpPluginExtension
-import com.awaken.generatebp.models.Module
+import org.fortune.generatebp.GenerateBpPlugin
+import org.fortune.generatebp.GenerateBpPluginExtension
+import org.fortune.generatebp.models.Module
 
 plugins {
     id("com.android.application")
@@ -18,7 +18,7 @@ buildscript {
     }
 
     dependencies {
-        classpath("com.awaken:gradle-generatebp:+")
+        classpath("org.fortune:gradle-generatebp:+")
     }
 }
 
@@ -33,7 +33,7 @@ android {
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.awaken.updater"
+        applicationId = "org.fortune.updater"
         minSdk = 30
         targetSdk = 33
         versionCode = 1
